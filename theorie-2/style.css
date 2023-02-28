@@ -1,0 +1,38 @@
+/*
+
+
+
+*/
+body{
+    background-color: tomato;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: #ffffff;
+}
+
+.bleu {
+    color: rgb(0, 0, 125);
+}
+
+.blanc{
+    color: #ffffff;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: 200;
+}
+
+.titre{
+    color: #ffffff;
+    font-style: italic;
+}
+
+.couleur-vert{
+    color: green;
+}
+
+#titre-h5{
+    opacity: 0.5;
+}
+

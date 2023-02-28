@@ -1,0 +1,27 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    background-color: blue;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    
+}
+
+.four {
+    background-color: tomato;
+    order: -1;
+}

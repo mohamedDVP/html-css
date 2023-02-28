@@ -1,0 +1,56 @@
+/* Start : Stylisation du header */
+
+.header{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-links {
+    display: flex;
+    list-style:none;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.logo {
+    width: 125px;
+    height: 25px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.nav-link:last-child a{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius:20px;
+}
+
+/*
+AUTRES selecteurs possibles
+
+Pour le premier élément
+.nav-link:first-child {
+    backgroundcolor: red;
+}
+
+Pour l'élément à la position 2
+.nav-link:nth-child(2) {
+    backgroundcolor: yellow;
+}
+*/
+
+/* Start : Stylisation de la cover */
+
+.cover {
+    display: flex;
+}
+
+.image-office {
+    width: 55%;
+    flex-shrink: 0;
+}
